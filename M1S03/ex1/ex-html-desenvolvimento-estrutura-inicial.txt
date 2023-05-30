@@ -1,0 +1,15 @@
+Somente HTML
+
+Ex 1: Estrutura inicial
+
+Crie um repositório no GitHub e dê um nome de sua preferência. Em seguida, clone o repositório para iniciar a codificação local.
+
+Criação dos arquivos necessários
+
+Crie os arquivos necessários para a estilização e as páginas:
+
+index.html (Lista de remédios)
+
+contato.html (Formulário "Fale Conosco")
+
+style.css
