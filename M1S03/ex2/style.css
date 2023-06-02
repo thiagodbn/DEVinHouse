@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:   'Trebuchet MS';
+}
+
+.top-frame{
+    background: rgb(255, 153, 0);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+.nav-menu{
+    background: rgb(207, 207, 207);
+    text-align: left;
+
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+.menu-ul {
+    background: rgb(216, 19, 19);
+    margin: 0;
+    padding: 5px 10px;;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+.menu-ul-li {
+    display: flex;
+    background: rgb(102, 255, 0);
+}
+li a:hover{ /*Houver ao passar em cima */
+    background-color: aqua;
+    margin: 0;
+    /* Cantos arredondados*/
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding:  20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+ /* Pagina Contato*/
+ .form-conteiner{
+    display: flex;
+
+ }
+ .form-contato {
+    background: rgb(187, 187, 187);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+    border-radius: 10px;
+ }
