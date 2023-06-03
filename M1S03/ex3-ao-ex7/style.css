@@ -71,7 +71,7 @@ footer{
     margin-right: 1%;
     padding: 0.4%;
     text-align: center;
-    max-width: 15%;
+    max-width: 20%;
     background: rgb(255, 255, 255);
     border-radius: 15px;
     border-style: groove;
@@ -124,7 +124,7 @@ footer{
  }
  .form-contato {
     background: rgb(187, 187, 187);
-    text-align: center;
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
