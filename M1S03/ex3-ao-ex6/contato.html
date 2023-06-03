@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--Icone site -->
+    <title>NoronhaFarma - Fale Conosco</title>
+</head>
+<body>
+            <!-- Menu Pagina-->
+            <header class="header normal">
+                <nav class="nav-menu">
+                    <div>
+                        <img src="https://img.icons8.com/?size=512&id=a18dSVWlU1a8&format=png" alt="logoempresa" height="60px">
+                        NoronhaFarma
+                    </div>
+                    <div class="menu">
+                        Menu
+                        <ul class="menu-ul">
+                            <li class="menu-ul-li"> <a href="index.html">
+                                Todos os remédios 
+                            </a> </li>                            
+                            
+                            <li class="menu-ul-li"> <a href="contato.html"> 
+                                Fale Conosco
+                            </a></li>
+    
+                            <li class="menu-ul-li"> <a href="#"> 
+                                Sobre nós
+                            </a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+        <!-- Formulario-->
+    <div class="form-conteiner">
+    <form class="form-contato" action="fale-conosco">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="nome" placeholder="Digite seu Nome" >
+        <br>
+        <label for="tel-cont"> Telefone para contato:</label>
+        <input type="tel" id="tel-cont" name="telefone" placeholder="Digite seu telefone">
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+        <br>
+        <label for="assunto">Assunto</label>
+        <select name="assunto" id="assunto" >
+            <option value="optent" selected disabled>Opções entrega</option>
+            <option value="pegar">Retirar</option>
+            <option value="entrega">Entregar em casa</option>
+        </select>
+        <br>
+        <label for="mensagem">Sua Mensagem:</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="2"></textarea>
+        <br>
+        <label for="checkbox1">Checkbox 1</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <label for="checkbox2">Checkbox 2</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <br>
+        <input type="button" name="enviar" value="Enviar">
+    </form>
+    </div>
+
+
+</body>
+</html>
