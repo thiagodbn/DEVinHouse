@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/ffavicon.ico" type="image/x-icon"><!--Icone site -->
+    <title>NoronhaFarma - Fale Conosco</title>
+</head>
+<body>
+            <!-- Frame Promoção-->
+            <div class="top-frame">
+                Promoção 15% OFF
+            </div>
+        <!-- Menu Pagina-->
+        <header class="header normal">
+            <nav class="nav-menu">
+                <div class="nav-menu-centro">
+                    <!--Logo Site-->
+                    <a class="logo" href="index.html">
+                    <img src="./img/NorcodeFarma-sem-fundo.png" alt="logoempresa" height="60px">
+                    </a>
+                
+                    <!--Barra Pesquisa-->
+                    <div class="pesquisa">
+                        <input class="input-pesquisa" type="text" placeholder="Pesquisa em toda loja...">
+                        <button type="submit" title="Pesquisa" > Pesquisa </button>
+                    </div>
+
+                    <!-- Icones menu-->
+                    <div class="icones">
+                        <a class="icone-carrinho" href="index.html">
+                        <img src="./img/shopping-cart.png" alt="carrinho" height="40px">
+                        </a>
+                        <a  class="icone-perfil" href="index.html">
+                        <img src="./img/profile.png" alt="perfil" height="40px">
+                        </a>
+                    </div>
+
+                </div>
+
+                <!--Barra Menu-->
+                <div class="menu">
+                    
+                    <ul class="menu-ul">
+                        <li class="menu-ul-li"> <a href="index.html">
+                            Todos os remédios 
+                        </a> </li>                            
+                        
+                        <li class="menu-ul-li"> <a href="contato.html"> 
+                            Fale Conosco
+                        </a></li>
+
+                        <li class="menu-ul-li"> <a href="#"> 
+                            Sobre nós
+                        </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Formulario-->
+    <div class="form-conteiner">
+        
+    <form class="form-contato" action="fale-conosco">
+        <div class="subdiv-contato">
+        <p class="form-txt" > Preencha o formulário e retornaremos seu contato!</p>
+        </div>
+
+        <div class="subdiv-contato">
+        <label class="form-txt" for="name">Name:</label>
+        <br>
+        <input class="form-contato-input" type="text" id="name" name="nome" placeholder="Digite seu Nome" >
+        </div>
+
+        <div class="subdiv-contato">
+        <label class="form-txt" for="tel-cont"> Telefone:</label>
+        <br>
+        <input class="form-contato-input" type="tel" id="tel-cont" name="telefone" placeholder="Digite seu telefone">
+        </div>
+
+        <div class="subdiv-contato">
+        <label class="form-txt" for="email">E-mail:</label>
+        <br>
+        <input class="form-contato-input" type="email" name="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+
+        <div class="subdiv-contato">
+        <label class="form-txt" for="assunto">Assunto</label>
+        <br>
+        <select class="form-contato-input" name="assunto" id="assunto" >
+            <option value="optent" selected disabled>Opções entrega</option>
+            <option value="pegar">Retirar</option>
+            <option value="entrega">Entregar em casa</option>
+        </select>
+        </div>
+
+        <div class="subdiv-contato">
+        <label class="form-txt" for="mensagem">Sua Mensagem:</label>
+        <br>
+        <textarea class="form-contato-input" name="mensagem" id="mensagem" cols="30" rows="2"></textarea>
+        </div>
+
+        <div class="subdiv-contato">
+        <input type="checkbox" name="checkbox1" id="checkbox1">    
+        <label class="form-txt" for="checkbox1">Aceito receber notificações e ofertas</label>
+        </div>
+
+        <div class="subdiv-contato-button">
+        <input class="form-contato-button" type="button" name="enviar" value="Enviar">
+        </div>
+
+    </form>
+    </div>
+
+
+</body>
+</html>
