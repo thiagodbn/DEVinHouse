@@ -123,14 +123,14 @@ footer{
 }
 
 .card-rodape{
-    
+    margin: 2px;
 }
 
 .botao-card-compra{
     background: rgb(4, 117, 0);
     color: white;
     border-radius: 10px;
-    padding: 2px 2px;
+    padding: 3px 3px;
     border: none;
 }
 
