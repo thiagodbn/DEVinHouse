@@ -53,29 +53,6 @@
 
             </div>
 
-            <!-- NAV ANTIGA-->
-            <!-- <div class="nav-menu-centro"> -->
-            <!-- Logo Site -->
-            <!-- <a class="logo" href="index.html">
-                    <img src="./img/NorcodeFarma-sem-fundo.png" alt="logoempresa" height="60px">
-                    </a> -->
-            <!--Barra Pesquisa-->
-            <!-- <div class="pesquisa">
-                        <input class="input-pesquisa" type="text" placeholder="Pesquisa em toda loja...">
-                        <button type="submit" title="Pesquisa" > Pesquisa </button>
-                    </div> -->
-            <!-- Icones menu-->
-            <!-- <div class="icones">
-                        <a class="icone-carrinho" href="index.html">
-                        <img src="./img/shopping-cart.png" alt="carrinho" height="40px">
-                        </a>
-                        <a  class="icone-perfil" href="index.html">
-                        <img src="./img/profile.png" alt="perfil" height="40px">
-                        </a>
-                    </div>
-                </div>  -->
-
-
             <!--Barra Menu-->
             <div class="menu">
 
@@ -96,60 +73,60 @@
         </nav>
     </header>
 
-    <!-- Formulario-->
+    <!-- Formulario Bootstrap-->
     <div class="form-conteiner">
+        <div class="form-conteiner-bootstrap">
+            <h2>Preencha o formulário e retornaremos seu contato!</h2>
 
-        <form class="form-contato" action="fale-conosco">
-            <div class="subdiv-contato">
-                <p class="form-txt"> Preencha o formulário e retornaremos seu contato!</p>
+            <select class="form-select" aria-label="Default select example">
+
+                <option selected>Selecione o assunto</option>
+                <option value="1">Entrega</option>
+                <option value="2">Produtos</option>
+                <option value="3">Contato</option>
+                <option value="4">Duvidas</option>
+                <option value="5">Outros</option>
+
+            </select>
+
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Last name">
+                </div>
             </div>
 
-            <div class="subdiv-contato">
-                <label class="form-txt" for="name">Name:</label>
-                <br>
-                <input class="form-contato-input" type="text" id="name" name="nome" placeholder="Digite seu Nome">
+
+            <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Anexar arquivo</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
             </div>
 
-            <div class="subdiv-contato">
-                <label class="form-txt" for="tel-cont"> Telefone:</label>
-                <br>
-                <input class="form-contato-input" type="tel" id="tel-cont" name="telefone"
-                    placeholder="Digite seu telefone">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Sua Mensagem:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 
-            <div class="subdiv-contato">
-                <label class="form-txt" for="email">E-mail:</label>
-                <br>
-                <input class="form-contato-input" type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            <p>Aceito receber notificações e ofertas por:</p>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" checked>
+                <label class="form-check-label" for="flexSwitchCheckDefault">Email</label>
             </div>
-
-            <div class="subdiv-contato">
-                <label class="form-txt" for="assunto">Assunto</label>
-                <br>
-                <select class="form-contato-input" name="assunto" id="assunto">
-                    <option value="optent" selected disabled>Opções entrega</option>
-                    <option value="pegar">Retirar</option>
-                    <option value="entrega">Entregar em casa</option>
-                </select>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                <label class="form-check-label" for="flexSwitchCheckChecked">WhatsApp</label>
             </div>
+            <p>Ao cadastrar-se, você aceita nossos Termos de Uso e Política de Privacidade</p>
+            <button type="button" class="btn btn-danger">Finalizar Cadastro</button>
+        </div>
 
-            <div class="subdiv-contato">
-                <label class="form-txt" for="mensagem">Sua Mensagem:</label>
-                <br>
-                <textarea class="form-contato-input" name="mensagem" id="mensagem" cols="30" rows="2"></textarea>
-            </div>
-
-            <div class="subdiv-contato">
-                <input type="checkbox" name="checkbox1" id="checkbox1">
-                <label class="form-txt" for="checkbox1">Aceito receber notificações e ofertas</label>
-            </div>
-
-            <div class="subdiv-contato-button">
-                <input class="form-contato-button" type="button" name="enviar" value="Enviar">
-            </div>
-
-        </form>
-    </div>
+       </div>
     <!--Inicio Footer-->
     <footer class="footer">
         <p>

@@ -164,18 +164,28 @@ footer{
 
  /* Pagina Contato*/
 
- 
- .form-conteiner{
-    display: flex;
+ .form-conteiner-bootstrap{
     justify-content: center;
-    padding-left: 18%;
-    padding-right: 18%;
-    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: rgb(221, 221, 221);
+    border-radius: 10px;
+    
+ }
+
+
+ .form-conteiner{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 
  }
  .form-contato {
     background: rgb(187, 187, 187);
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -186,34 +196,3 @@ footer{
  }
 
  
- .subdiv-contato{
-    margin-bottom: 2%;
-    width: 100%;
-    
- }
-
- .form-contato-input{
-    width: 100%;
-
- }
-
- .subdiv-contato-button{
-    text-align: center;
- }
-
- .form-contato-button{
- 
-    background: rgb(216, 19, 19);
-    color: white;
-    border-radius: 10px;
-    padding: 5px 50px;
-    border: none;
-    font-weight: bold;
-    font-size: 100%;
-    
- }
-
- .form-contato-button:hover{
-    cursor: pointer;
-    background: rgb(146, 15, 15);
-}
