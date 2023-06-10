@@ -28,11 +28,6 @@ function CalcMedia() {
 }
 
 
-
-
-
-
-
 //Menos do que 18,5	Abaixo do peso
 //Entre 18,5 e 24,9	Peso normal
 //Entre 25 e 29,9	Sobrepeso
