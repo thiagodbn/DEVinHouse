@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX1-M1S06</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>    
+    <!--<script src="calculaMedia.js"></script>
+    <script src="multiplicaArray.js"></script> -->
+    <script src="somaArray.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calc-area">
+        <h2>Operação com Array</h2>
+         <!--            criar array          -->         
+         <h3>Insira um valor e adicone ao Array:</h3>   
+         <div class="input-group">
+            <input type="text" id="valorInput" class="form-control" placeholder="Insira um numero" aria-label="descri">
+            <button class="btn btn-outline-secondary" type="button" id="button-add" onclick="adicionarValor()" > Adicionar </button>
+            <button class="btn btn-outline-secondary" type="button" id="button-reset" onclick="resetValores()" > Resetar </button>
+          </div>
+
+
+        
+        <p>confira seu array abaixo</p>
+        <div class="input-group mb-3">
+
+            <span class="input-group-text" >Array</span>
+            <input type="text" id="arrayOutput" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        
+ <!--            interação com  somaArray.js          -->            
+        <h3>A soma dos valores do Array:</h3>
+        <div class="input-group mb-3">
+            <input type="text" id="result1" class="form-control" placeholder="Resultado do somatorio aqui"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-calc1" onclick="Somatorio()">Calcular</button>
+        </div>
+
+<!--            interação com  multiplicaArray.js          -->
+        <h3>A multiplicação dos valores do Array:</h3>
+        <div class="input-group mb-3">
+            <input type="number" id="result2" class="form-control" placeholder="Resultado da multiplicação aqui"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-calc2" onclick="CalcMedia()">Calcular</button>
+        </div>
+
+  <!--            interação com  calculaMedia.js          -->       
+        <h3>A media valores do Array:</h3>
+        <div class="input-group mb-3">
+            <input type="number" id="result3" class="form-control" placeholder="Resultado da media aqui"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-calc3" onclick="CalcMedia()">Calcular</button>
+        </div>
+        
+    
+    </div>
+
+</html>

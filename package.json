@@ -1,0 +1,21 @@
+{
+  "name": "devinhouse",
+  "version": "1.0.0",
+  "description": "Repositório para atividades do DEVinHouse",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagodbn/DEVinHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagodbn/DEVinHouse/issues"
+  },
+  "homepage": "https://github.com/thiagodbn/DEVinHouse#readme",
+  "keywords": []
+}
