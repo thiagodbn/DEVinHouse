@@ -41,6 +41,7 @@ public class Calculadora {
 
             default:
                 System.out.println("Numero de operação não é valido");
+
         }
     }
 }
