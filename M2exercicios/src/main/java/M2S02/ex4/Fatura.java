@@ -67,4 +67,5 @@ public class Fatura {
         double totalPorItem = quantidade * preco;
         return String.format("%.2f", totalPorItem);
     }
+
 }

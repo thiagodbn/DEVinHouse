@@ -7,6 +7,7 @@ public class TestaFatura {
 
         System.out.println( novafatura.getValorItem());
         System.out.println( novafaturaoutra.getValorItem());
+
     }
 
 }
