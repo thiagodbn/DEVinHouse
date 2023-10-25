@@ -3,7 +3,7 @@ package M2S02.ex3;
 public class Retangulo {
     private double ladoA = 1;
     private double ladoB = 1;
-    private double perimetro;
+
 
     public Retangulo (double ladoA, double ladoB ) {
         setLadoA(ladoA);

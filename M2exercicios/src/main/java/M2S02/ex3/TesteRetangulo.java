@@ -15,4 +15,5 @@ public class TesteRetangulo {
             System.out.println(e.getMessage());
         }
     }
+
 }
