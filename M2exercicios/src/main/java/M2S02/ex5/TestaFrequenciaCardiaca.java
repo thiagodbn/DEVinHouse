@@ -9,5 +9,4 @@ public class TestaFrequenciaCardiaca {
         System.out.println("A frequência alvo é de "+ novaFrequencia.calcularFrequenciaAlvoMin()+" a "+ novaFrequencia.calcularFrequenciaAlvoMax()+".");
     }
 
-
 }

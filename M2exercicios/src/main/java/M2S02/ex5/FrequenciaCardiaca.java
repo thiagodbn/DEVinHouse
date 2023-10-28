@@ -41,8 +41,6 @@ public class FrequenciaCardiaca {
         return dataAniversario;
     }
 
-    //Frequencia cardiaca maxima(/min) = 220 - idade(anos)
-    //frequencia alvo de 50 a 85% da maxima
 
     public int calcularIdade() {
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
