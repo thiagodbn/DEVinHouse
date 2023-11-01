@@ -1,4 +1,4 @@
-package M2S03;
+package M2S03.EXPOO;
 
 public class TesteFuncionario {
     public static void main(String[] args) {
